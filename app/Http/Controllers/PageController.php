@@ -71,7 +71,8 @@ class PageController extends Controller
     $username = $request->input('username', 'Guest');
     $buku = $request->input('buku', '');
     $ulasanLama = $request->input('ulasan', '');
+    $ratingLama = $request->input('rating', '5');
 
-    return view('form-ulasan', compact('username', 'buku', 'ulasanLama'));
+    return view('form-ulasan', compact('username', 'buku', 'ulasanLama', 'ratingLama'));
     }
 }

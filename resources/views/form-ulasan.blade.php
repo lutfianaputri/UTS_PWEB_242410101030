@@ -21,7 +21,7 @@
 
             <div class="mb-6">
                 <label class="block text-rose-900 font-bold mb-2 ml-1">Rating</label>
-                <select name="rating" class="w-full px-5 py-3 bg-pink-50 border border-pink-200 rounded-2xl focus:outline-none focus:ring-4 focus:ring-pink-200 text-rose-900 font-medium">
+                <select name="rating" id="rating" required class="w-full px-5 py-3 bg-pink-50 border border-pink-200 rounded-2xl focus:outline-none focus:ring-4 focus:ring-pink-200 text-rose-900 font-medium">
                     <option value="5">Sempurna</option>
                     <option value="4">Bagus Aja</option>
                     <option value="3">So So, Nothing Special</option>
@@ -36,7 +36,7 @@
             </div>
 
             <div class="flex gap-4">
-                <a href="{{ url('/dashboard?username=' . $username) }}" class="w-1/3 text-center bg-white border-2 border-pink-200 hover:bg-pink-50 text-pink-500 font-bold py-3 px-4 rounded-2xl transition-all">Batal</a>
+                <a href="{{ url('/pengelolaan?username=' . $username) }}" class="w-1/3 text-center bg-white border-2 border-pink-200 hover:bg-pink-50 text-pink-500 font-bold py-3 px-4 rounded-2xl transition-all">Batal</a>
                 <button type="submit" class="w-2/3 bg-pink-400 hover:bg-pink-500 text-white font-bold py-3 px-4 rounded-2xl transition-all shadow-lg shadow-pink-200">Kirim Ulasan</button>
             </div>
         </form>

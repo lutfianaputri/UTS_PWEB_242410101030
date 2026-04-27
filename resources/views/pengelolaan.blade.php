@@ -39,10 +39,10 @@
 
                     <div class="text-amber-500 text-sm mb-3 tracking-widest">Rating: {{ $review['rating'] }}/5</div>
                     <p class="text-slate-600 leading-relaxed italic mb-4">"{{ $review['isi'] }}"</p>
-                    
+
                     <div class="flex items-center justify-between border-t border-pink-200 pt-4">
                         <span class="text-xs font-bold px-3 py-1 bg-rose-100 text-rose-600 rounded-lg">Dipublikasikan</span>
-                        <a href="{{ url('/form-ulasan') }}?username={{ urlencode($username) }}&buku={{ urlencode($review['buku']) }}&ulasan={{ urlencode($review['isi']) }}" class="text-sm text-pink-500 font-bold hover:underline">Edit Ulasan</a>
+                        <a href="{{ url('/form-ulasan') }}?username={{ urlencode($username) }}&buku={{ urlencode($review['buku']) }}&ulasan={{ urlencode($review['isi']) }}&rating={{ $review['rating'] }}" class="text-sm text-pink-500 font-bold hover:underline">Edit Ulasan</a>
                     </div>
                 </div>
                 @endforeach
