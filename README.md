@@ -18,11 +18,16 @@ Karena tidak ada database atau session yang menyimpan data secara permanen, perp
 Pada fitur edit ulasan, proses penggantian data lama dengan data baru dikerjakan menggunakan fungsi bawaan PHP seperti array_filter dan array_unshift untuk memanipulasi array di dalam Controller secara langsung.
 
 ## Screenshot
-**Halaman Login
-**<img width="1920" height="1080" alt="Screenshot (344)" src="https://github.com/user-attachments/assets/fba2bd6b-0196-466a-8301-e6f31f323d9b" />
-Dashboard
+**Halaman Login**
+<img width="1920" height="1080" alt="Screenshot (344)" src="https://github.com/user-attachments/assets/fba2bd6b-0196-466a-8301-e6f31f323d9b" />
+
+**Dashboard**
 <img width="1794" height="1700" alt="Screenshot_27-4-2026_21158_127 0 0 1" src="https://github.com/user-attachments/assets/8315067e-34ff-4591-8cc7-997153d284ca" />
+
 **Profile**
 <img width="1920" height="1080" alt="Screenshot (346)" src="https://github.com/user-attachments/assets/3842a0af-3f5d-4187-8311-c72f67193187" />
+
 **Review**
 <img width="1920" height="1080" alt="Screenshot (345)" src="https://github.com/user-attachments/assets/4d886ce9-f6ae-4152-a9fe-5ef7176b94fc" />
+
+UTS PWEB B
