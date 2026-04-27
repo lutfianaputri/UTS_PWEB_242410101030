@@ -22,11 +22,11 @@
             <div class="mb-6">
                 <label class="block text-rose-900 font-bold mb-2 ml-1">Rating</label>
                 <select name="rating" id="rating" required class="w-full px-5 py-3 bg-pink-50 border border-pink-200 rounded-2xl focus:outline-none focus:ring-4 focus:ring-pink-200 text-rose-900 font-medium">
-                    <option value="5">Sempurna</option>
-                    <option value="4">Bagus Aja</option>
-                    <option value="3">So So, Nothing Special</option>
-                    <option value="2">Kureng sih</option>
-                    <option value="1">Jujur Jelek</option>
+                    <option value="5" {{ $ratingLama == 5 ? 'selected' : '' }}>Sempurna</option>
+                    <option value="4" {{ $ratingLama == 4 ? 'selected' : '' }}>Bagus Aja</option>
+                    <option value="3" {{ $ratingLama == 3 ? 'selected' : '' }}>So So, Nothing Special</option>
+                    <option value="2" {{ $ratingLama == 2 ? 'selected' : '' }}>Kureng sih</option>
+                    <option value="1" {{ $ratingLama == 1 ? 'selected' : '' }}>Jujur Jelek</option>
                 </select>
             </div>
 
