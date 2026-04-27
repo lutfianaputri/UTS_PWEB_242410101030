@@ -58,7 +58,7 @@ class PageController extends Controller
             array_unshift($ulasanPribadi,
             [
                 'buku' => $bukuBaru,
-                'tgl' => 'Baru Saja', 
+                'tgl' => 'Baru Saja',
                 'isi' => $ulasanBaru,
                 'rating' => $ratingBaru ?? '5'
             ]);
@@ -71,7 +71,7 @@ class PageController extends Controller
     $username = $request->input('username', 'Guest');
     $buku = $request->input('buku', '');
     $ulasanLama = $request->input('ulasan', '');
-    
+
     return view('form-ulasan', compact('username', 'buku', 'ulasanLama'));
     }
 }
